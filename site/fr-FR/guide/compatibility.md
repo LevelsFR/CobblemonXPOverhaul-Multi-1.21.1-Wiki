@@ -12,6 +12,10 @@ Le code cible **Minecraft 1.21.1**, **Cobblemon 1.8.2 minimum et strictement inf
 
 Ces exigences sont issues des métadonnées du mod et ne garantissent pas que toutes les versions ultérieures ont été testées.
 
+## Langues disponibles en jeu
+
+La version **2.1** enrichit les **traductions intégrées au mod**. Le site de documentation est disponible en anglais et en français.
+
 ## Intégrations facultatives
 
 | Mod | Fonctionnement |

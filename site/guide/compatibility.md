@@ -12,6 +12,10 @@ The source targets **Minecraft 1.21.1**, **Cobblemon 1.8.2 up to but excluding 1
 
 Requirements come from the mod metadata and do not guarantee testing against every later release.
 
+## In-game language support
+
+Version **2.1** expands the mod's **in-game translations**. The documentation website itself is available in English and French.
+
 ## Optional integrations
 
 | Mod | Integration |
