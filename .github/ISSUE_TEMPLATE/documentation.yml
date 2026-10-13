@@ -1,0 +1,27 @@
+name: Documentation bug
+description: Report an inaccurate wiki page without sharing confidential details
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include credentials, private source files, access tokens or security-sensitive exploit details. Use private vulnerability reporting for security issues."
+  - type: input
+    id: page
+    attributes:
+      label: Documentation URL
+      placeholder: https://levelsfr.github.io/CobblemonXPOverhaul-Multi-1.21.1-Wiki/guide/...
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is incorrect?
+      description: Describe the inaccuracy and the expected public behavior.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Mod version (if relevant)
+      placeholder: "2.0"
