@@ -1,6 +1,6 @@
 # API développeur : XP Flask
 
-La version 2.0 propose une API **côté serveur** pour prévisualiser puis appliquer la conversion de la fiole à un objet **Pokémon Cobblemon**, provenant notamment de l'équipe ou du PC.
+La version 2.1 propose une API **côté serveur** pour prévisualiser puis appliquer la conversion de la fiole à un objet **Pokémon Cobblemon**, provenant notamment de l'équipe ou du PC.
 
 ## Exemple Java
 
@@ -19,6 +19,8 @@ if (preview.canApply()) {
     }
 }
 ```
+
+**Aperçu côté joueur (v2.1) :** Shift + clic droit avec la fiole sur son Pokémon invoqué affiche une estimation dans le chat. L'API ci-dessous permet les intégrations serveur dans d'autres mods.
 
 `preview` ne modifie rien. `apply` recherche à nouveau la fiole et recalcule le coût. Les quantités d'XP et niveaux transmis par un client ne doivent pas être considérés comme fiables.
 

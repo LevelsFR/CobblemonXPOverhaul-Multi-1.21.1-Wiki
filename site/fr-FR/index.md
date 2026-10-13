@@ -22,16 +22,16 @@ features:
     details: Récompenses indépendantes pour les captures et les combats.
     icon: 🎯
   - title: Fiole d’XP
-    details: Stockez une partie de l’XP du mod pour entraîner vos Pokémon.
+    details: Stockez de l’XP et prévisualisez les transferts sans les appliquer.
     icon: 🧪
   - title: Équilibrage précis
-    details: Multiplicateurs, espèces, Œuf Chance et Exp All.
+    details: Multiplicateurs, diagnostic XP, Œuf Chance et Exp All.
     icon: ⚙️
   - title: Fabric et NeoForge
-    details: Minecraft 1.21.1 et Cobblemon 1.8.0+.
+    details: Minecraft 1.21.1 et Cobblemon 1.8.2 à 1.8.x.
     icon: 🔌
 ---
 
 ::: info Version du code documentée
-**v2.0** pour **Minecraft 1.21.1**. Vérifiez les fichiers publics disponibles sur [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cobblemon-xp-overhaul).
+**v2.1** pour **Minecraft 1.21.1**. Vérifiez les fichiers publics disponibles sur [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cobblemon-xp-overhaul).
 :::

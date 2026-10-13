@@ -16,6 +16,14 @@ Les multiplicateurs `shinyMultiplier` et `alphaMultiplier` valent tous deux `1.0
 
 `/cxpo reload` nécessite la **permission 2**.
 
+## Peut-on vérifier un transfert avant de l'effectuer ?
+
+Oui, depuis la **v2.1**. Maintenez Shift (accroupi) et faites un clic droit avec la fiole sur votre Pokémon invoqué pour afficher un aperçu dans le chat sans dépenser d'XP. Un clic droit normal applique le transfert.
+
+## Comment consulter le détail d'un gain d'XP ?
+
+Avec la permission **2**, `/cxpo xp explain [player]` affiche le dernier calcul d'**XP du joueur** enregistré dans la session serveur. Il ne détaille pas l'XP des Pokémon et ne conserve pas l'historique après redémarrage.
+
 ## Pourquoi reste-t-il de l'XP dans la fiole ?
 
 Chaque usage est plafonné à l'XP requise pour atteindre le prochain niveau, avant les événements Cobblemon.

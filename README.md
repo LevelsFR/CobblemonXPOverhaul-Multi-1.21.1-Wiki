@@ -1,6 +1,6 @@
 # Cobblemon XP Overhaul Wiki
 
-Public documentation for **Cobblemon XP Overhaul v2.0**, supporting Minecraft **1.21.1** with Fabric and NeoForge.
+Public documentation for **Cobblemon XP Overhaul v2.1**, supporting Minecraft **1.21.1** with Fabric and NeoForge.
 
 **Documentation website:** https://levelsfr.github.io/CobblemonXPOverhaul-Multi-1.21.1-Wiki/
 
@@ -10,9 +10,9 @@ Public documentation for **Cobblemon XP Overhaul v2.0**, supporting Minecraft **
 
 - Installation, supported versions and dependencies
 - Player and Pokémon experience rewards
-- XP Flask mechanics and crafting
+- XP Flask mechanics, crafting and transfer preview
 - Configuration options and default values
-- Commands, compatibility and troubleshooting
+- XP calculation diagnostics, commands, compatibility and troubleshooting
 - Integration API for compatible mods
 
 Documentation is available in **English** and **French** (`/fr-FR/`).
@@ -22,7 +22,7 @@ Documentation is available in **English** and **French** (`/fr-FR/`).
 Node.js 22 or later is recommended:
 
 ```sh
-npm install
+npm ci
 npm run check:links
 python3 scripts/check_public_content.py
 npm run docs:build

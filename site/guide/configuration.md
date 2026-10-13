@@ -47,4 +47,6 @@ This is a partial illustration of the nested structure, not a replacement for th
 
 The mod normalizes invalid values and migrates certain older flat section names on reload. Malformed JSON can trigger safe defaults, so **make backups** before editing.
 
+For troubleshooting player XP formulas in v2.1, use `/cxpo xp explain [player]` as an operator. This diagnostic is available without changing the JSON files.
+
 For every exact key and default, use the [full configuration reference](/guide/configuration-reference).

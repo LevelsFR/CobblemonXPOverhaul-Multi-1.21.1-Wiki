@@ -1,6 +1,6 @@
 # Référence complète des paramètres
 
-Les tableaux recensent les **clés JSON et valeurs par défaut de la v2.0** dans `config/cobblemon_xp_overhaul/`.
+Les tableaux recensent les **clés JSON et valeurs par défaut de la v2.1** dans `config/cobblemon_xp_overhaul/`.
 
 # Paramètres serveur
 

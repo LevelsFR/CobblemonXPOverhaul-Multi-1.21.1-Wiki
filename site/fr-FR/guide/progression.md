@@ -38,4 +38,8 @@ L'XP des Pokémon éligibles est distribuée après chaque **K.O.** en combat de
 
 Pour l'XP du joueur, la détection dépend des réglages d'inventaire et d'objets tenus par l'équipe. Pour l'XP de capture des Pokémon, l'Œuf Chance tenu par chaque bénéficiaire est examiné individuellement. Multiplicateur par défaut : **1.5**.
 
+## Examiner un calcul d'XP du joueur (v2.1)
+
+Les opérateurs peuvent utiliser `/cxpo xp explain` ou `/cxpo xp explain <player>` pour afficher le dernier calcul d'**XP du joueur**, les bonus appliqués et la répartition entre joueur et fiole. Les traces ne sont conservées que pendant la session serveur. Voir les [commandes](/fr-FR/guide/commands).
+
 Consultez la [référence de configuration](/fr-FR/guide/configuration-reference).

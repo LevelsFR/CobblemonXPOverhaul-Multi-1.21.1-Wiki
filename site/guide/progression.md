@@ -37,4 +37,8 @@ During trainer battles, XP is awarded on eligible **knockouts** instead of being
 
 The player reward checks inventory or party-held Lucky Eggs according to the `luckyEgg` config. Pokémon capture XP checks the recipient's held Lucky Egg individually. Default lucky egg multiplier for applicable custom rewards is **1.5**.
 
+## Inspect the last player XP calculation (v2.1)
+
+Server operators can use `/cxpo xp explain` or `/cxpo xp explain <player>` to see the latest recorded **player XP** formula, bonuses and split between the player and the XP Flask. The diagnostic record is session-only. See [commands](/guide/commands).
+
 See the [full settings reference](/guide/configuration-reference).

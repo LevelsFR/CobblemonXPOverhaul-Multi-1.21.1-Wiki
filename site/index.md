@@ -15,23 +15,23 @@ hero:
       text: Explore XP Flask
       link: /guide/xp-flask
     - theme: alt
-      text: Download v2.0
+      text: Download v2.1
       link: https://www.curseforge.com/minecraft/mc-mods/cobblemon-xp-overhaul
 features:
   - title: Player & Pokémon XP
     details: Independent capture and battle rewards, adjustable to your server.
     icon: 🎯
   - title: XP Flask
-    details: Store part of the mod's player XP rewards to train Pokémon later.
+    details: Store XP for Pokémon training, with a non-consuming sneak-click preview.
     icon: 🧪
   - title: Detailed balancing
-    details: Level scaling, species bonuses, Lucky Eggs and Exp All.
+    details: Fine-tuned rewards, XP diagnostics, Lucky Eggs and Exp All.
     icon: ⚙️
   - title: Fabric & NeoForge
-    details: Minecraft 1.21.1 with Cobblemon 1.8.0+.
+    details: Minecraft 1.21.1 with Cobblemon 1.8.2–1.8.x.
     icon: 🔌
 ---
 
 ::: info Documented source version
-**v2.0** on **Minecraft 1.21.1**. Public builds and availability should be checked on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cobblemon-xp-overhaul).
+**v2.1** on **Minecraft 1.21.1**. Public builds and availability should be checked on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cobblemon-xp-overhaul).
 :::

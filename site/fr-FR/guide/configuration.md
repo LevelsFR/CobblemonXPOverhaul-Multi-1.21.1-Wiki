@@ -47,4 +47,6 @@ Il s'agit d'un extrait de l'arborescence, pas d'un fichier JSON complet.
 
 Les paramètres invalides sont normalisés et certains anciens noms sont migrés au rechargement. En cas de JSON mal formé, des valeurs par défaut peuvent être rétablies : **gardez une sauvegarde**.
 
+Pour diagnostiquer une formule d'XP du joueur en v2.1, utilisez `/cxpo xp explain [player]` avec les droits opérateur. Aucun nouveau paramètre JSON n'est nécessaire.
+
 Consultez la [référence des paramètres](/fr-FR/guide/configuration-reference).

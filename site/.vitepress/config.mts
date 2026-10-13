@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 const EN='/guide/', FR='/fr-FR/guide/'
 export default defineConfig({
   title:'Cobblemon XP Overhaul',
-  description:'Player and server guide for Cobblemon XP Overhaul v2.0',
+  description:'Player and server guide for Cobblemon XP Overhaul v2.1',
   lang:'en-US',
   base:'/CobblemonXPOverhaul-Multi-1.21.1-Wiki/',
   cleanUrls:true,
@@ -37,6 +37,6 @@ export default defineConfig({
     socialLinks:[{icon:'discord',link:'https://discord.gg/kb8NSTF45n'}],
     search:{provider:'local'},
     docFooter:{prev:'Previous',next:'Next'},
-    footer:{message:'Cobblemon XP Overhaul · Documentation v2.0'}
+    footer:{message:'Cobblemon XP Overhaul · Documentation v2.1'}
   }
 })

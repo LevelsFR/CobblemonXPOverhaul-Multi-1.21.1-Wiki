@@ -1,6 +1,6 @@
 # Full configuration reference
 
-This page lists exact **v2.0 JSON keys and defaults**. Files are located in `config/cobblemon_xp_overhaul/`.
+This page lists exact **v2.1 JSON keys and defaults**. Files are located in `config/cobblemon_xp_overhaul/`.
 
 # Server settings
 

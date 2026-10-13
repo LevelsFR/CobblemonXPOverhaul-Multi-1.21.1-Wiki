@@ -16,6 +16,14 @@ Their default capture multipliers are both `1.0`. Increase `shinyMultiplier` and
 
 `/cxpo reload` requires operator permission level **2**.
 
+## Can I check a Flask transfer before using it?
+
+Yes, since **v2.1**. Hold Shift (sneak) and right-click your own summoned Pokémon with the Flask to preview the transfer in chat without spending XP. Use a regular right-click to apply it.
+
+## Can operators inspect XP calculations?
+
+Yes. `/cxpo xp explain [player]` shows the last recorded **player XP** reward calculation from the current server session. It does not track Pokémon XP or persist across restarts. Permission level **2** is required.
+
 ## Why does the Flask keep some stored XP?
 
 Each application is capped to the amount needed for the next Pokémon level before Cobblemon's XP events run.

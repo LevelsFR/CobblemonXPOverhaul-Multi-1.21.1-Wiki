@@ -1,6 +1,6 @@
 # XP Flask developer API
 
-XP Overhaul v2.0 exposes a server-side integration API for previewing and applying Flask XP to a **Cobblemon Pokémon object**, including Pokémon from party or PC storage.
+XP Overhaul v2.1 exposes a server-side integration API for previewing and applying Flask XP to a **Cobblemon Pokémon object**, including Pokémon from party or PC storage.
 
 ## Example
 
@@ -19,6 +19,8 @@ if (preview.canApply()) {
     }
 }
 ```
+
+**Player-facing preview (v2.1):** Sneak + right-click on a summoned owned Pokémon while holding the Flask shows the transfer estimate in chat. The public API below supports other server-side integrations.
 
 `preview` never mutates player, Flask or Pokémon. `apply` locates the Flask again and recalculates the cost. Do not accept client-supplied XP amounts or levels as authoritative.
 

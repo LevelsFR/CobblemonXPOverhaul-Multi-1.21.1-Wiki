@@ -23,6 +23,8 @@ La recette 3 × 3 est ajoutée au démarrage du serveur.
 3. Une fraction alimente la fiole si le système est activé, le reste rejoint la barre d'expérience Minecraft.
 4. Faire un clic droit avec la fiole remplie sur **son propre Pokémon invoqué**.
 
+**Nouveauté v2.1 : maintenez Shift (accroupi) puis faites un clic droit sur votre Pokémon invoqué avec la fiole pour prévisualiser le transfert dans le chat.** Cet aperçu montre l'XP Pokémon prévue, le coût en XP stockée, le solde restant et le niveau estimé, ou indique pourquoi le transfert est impossible. Il ne consomme **aucune XP** et ne modifie pas le Pokémon. Le clic droit normal applique le transfert.
+
 Une utilisation ne donne au maximum que l'XP nécessaire pour atteindre le **niveau suivant**, avant le traitement des événements Cobblemon. Le solde reste dans la fiole. Son infobulle affiche la quantité d'XP Pokémon convertible disponible.
 
 ## Conversion par défaut
@@ -42,4 +44,4 @@ Avec Accessories, la fiole équipée est recherchée **avant** celles de l'inven
 
 `trainerXpCore.messageMode` accepte `ACTION_BAR`, `CHAT` et `DISABLED`. Le paramètre `showTrainerXpCoreMessages` peut également masquer les messages.
 
-Voir les [commandes](/fr-FR/guide/commands) et l'[API](/fr-FR/guide/api).
+L'aperçu est une estimation : le transfert est recalculé au moment de son application. Voir les [commandes](/fr-FR/guide/commands) et l'[API](/fr-FR/guide/api).

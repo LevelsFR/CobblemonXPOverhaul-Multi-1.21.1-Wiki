@@ -23,6 +23,8 @@ This is a shaped 3 × 3 recipe injected when the server starts.
 3. With the Flask feature enabled, part of those rewards goes into the Flask. The remainder goes to the Minecraft XP bar.
 4. Right-click a **summoned Pokémon you own** with the filled Flask to grant Pokémon XP.
 
+**New in v2.1: Hold Shift (sneak) and right-click your summoned Pokémon with the Flask to preview the XP transfer in chat.** The preview displays the expected Pokémon XP, trainer XP cost, remaining stored trainer XP and estimated level change, or a reason the transfer is unavailable. It does **not** consume XP or modify the Pokémon. Use a regular right-click to apply the transfer.
+
 Only up to the XP required to reach the **next Pokémon level** can be granted per use, before Cobblemon events. Any unused stored XP remains in the Flask. A tooltip shows how much converted Pokémon XP is available.
 
 ## Default conversion
@@ -44,4 +46,4 @@ When installed, a Flask equipped in its Accessories slot is selected **before** 
 
 Use `trainerXpCore.messageMode` as `ACTION_BAR`, `CHAT` or `DISABLED`. The `showTrainerXpCoreMessages` toggle also applies.
 
-Server administrators can inspect or adjust stored XP with [Flask commands](/guide/commands). Other mods can use the [server-side API](/guide/api).
+The preview is an estimate; the actual use recalculates the transfer when applied. Server administrators can inspect or adjust stored XP with [Flask commands](/guide/commands). Other mods can use the [server-side API](/guide/api).
