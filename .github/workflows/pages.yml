@@ -20,19 +20,9 @@ jobs:
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
-      - name: Install VitePress
-        run: |
-          if test -f package-lock.json; then
-            npm ci --no-audit --no-fund
-          else
-            npm install --no-audit --no-fund
-          fi
-      - name: Export generated dependency lock for verification
-        run: |
-          echo "CXPO_LOCK_BEGIN"
-          base64 -w0 package-lock.json
-          echo
-          echo "CXPO_LOCK_END"
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci --no-audit --no-fund
       - name: Validate public documentation
         run: |
           python3 scripts/check_links.py
