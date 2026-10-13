@@ -9,6 +9,14 @@
   const search = document.getElementById("wikiSearch");
   const results = document.getElementById("searchResults");
   const validTabs = new Set(panels.map(panel => panel.dataset.panel));
+  // Preserve the selected documentation tab when switching languages.
+  const languageSwitch = document.getElementById("languageSwitch");
+  languageSwitch?.addEventListener("click", event => {
+    const tab = location.hash.replace("#", "");
+    if (!validTabs.has(tab)) return;
+    event.preventDefault();
+    window.location.assign(languageSwitch.getAttribute("href") + "#" + tab);
+  });
 
   function showTab(name, updateHash = true) {
     if (!validTabs.has(name)) name = "overview";

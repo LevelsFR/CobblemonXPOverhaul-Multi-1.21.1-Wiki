@@ -17,7 +17,6 @@ LINKS=[
  ("https://discord.gg/kb8NSTF45n","💬 Discord",""),
  ("https://www.curseforge.com/minecraft/mc-mods/cobblemon-xp-overhaul","🧡 CurseForge",""),
  ("https://modrinth.com/mod/cobblemon-xp-overhaul","🟢 Modrinth",""),
- ("https://github.com/LevelsFR/CobblemonXPOverhaul-Multi-1.21.1-Wiki","💻 GitHub Wiki",""),
  ("https://www.patreon.com/c/OurStoryCollection","❤️ Patreon","")
 ]
 TICK=chr(96)
@@ -126,6 +125,17 @@ def page(lang):
   shell=shell.replace('href="styles.css"','href="../styles.css"').replace('src="app.js"','src="../app.js"')
   shell=shell.replace("Search the documentation...","Rechercher dans la documentation…")
   shell=shell.replace("Cobblemon XP Overhaul v2.1 Documentation</title>","Cobblemon XP Overhaul v2.1 - Documentation FR</title>")
+ # Match Cobblemon Realms: a compact FR/EN switch in the top navigation, not the sidebar.
+ language_href="../" if fr else "fr-FR/"
+ language_label="EN" if fr else "FR"
+ language_name="Switch to English" if fr else "Passer en français"
+ language_code="en" if fr else "fr"
+ language_switch=('<a class="lang-switch" id="languageSwitch" href="'+language_href+
+                  '" lang="'+language_code+'" aria-label="'+language_name+'">'+language_label+'</a>')
+ header_anchor='    <a class="community-badge bisecthosting-badge"'
+ if shell.count(header_anchor)!=1:
+  raise ValueError("Cannot find the topbar language-switch position")
+ shell=shell.replace(header_anchor,'    '+language_switch+'\n\n'+header_anchor,1)
  nav=[];tabs=[];panels=[]
  for n,slug in enumerate(SLUGS):
   icon,short,kicker=L[lang][n]
@@ -142,7 +152,6 @@ def page(lang):
  ext=[]
  for url,label,sponsor in LINKS:
   ext.append('<a class="sidebar-link" href="'+escape(url,quote=True)+'" target="_blank" rel="noopener noreferrer'+sponsor+'">'+escape(label)+"</a>")
- ext.append('<a class="sidebar-link" href="'+("../" if fr else "fr-FR/")+'">'+("🌐 English" if fr else "🌐 Français")+"</a>")
  extra=('  <div class="layout">\n'
  '    <aside id="sidebar">\n'
  '      <div class="sidebar-title">Documentation</div>\n'
